@@ -49,9 +49,9 @@ function App() {
            />
            <div className='duration-200'>{btn?(<button
            onClick={passcopytoclipboard } 
-          className='outline-none text-white bg-blue-500 px-7 py-0.5 h-full duration-300'><img className='h-7 w-11' src='https://cdn.icon-icons.com/icons2/3455/PNG/96/clipboard_paper_file_correct_done_list_document_icon_219488.png'/></button>):(<button
+          className='outline-none text-white bg-black px-7 py-0.5 h-full'><img className='h-7 w-11' src='https://cdn.icon-icons.com/icons2/2483/PNG/96/process_events_icon_149896.png'/></button>):(<button
             onClick={passcopytoclipboard } 
-           className='outline-none text-white bg-blue-500 px-5 py-0.5 h-full shrink-0'>Copy</button>)}
+           className='outline-none text-white bg-black px-5 py-0.5 h-full shrink-0'>Copy</button>)}
            
            </div>
            
